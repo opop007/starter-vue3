@@ -1,0 +1,39 @@
+/*! @import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-bottom-light {
+    border-bottom: 1px solid #dcdfe6;
+  }
+  .border-bottom-dash {
+    border-bottom: 1px dashed rgba(97, 202, 255, 0.2);
+  }
+  .h-section {
+    height: calc(100vh - 80px);
+  }
+  .color-theme {
+    color: #323c5a;
+  }
+  .primary-color {
+    color: #409eff;
+  }
+  .shadow-theme {
+    box-shadow: 0 2px 10px 0 rgba(66, 101, 244, 0.1);
+  }
+}
+
+@layer base {
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

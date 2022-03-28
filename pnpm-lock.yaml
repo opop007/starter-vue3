@@ -5,9 +5,11 @@ specifiers:
   '@vue/compiler-sfc': ^3.2.31
   ant-design-vue: ^2.2.8
   axios: ^0.26.1
+  echarts: ^5.3.1
   eslint: ^8.6.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-vue: ^8.2.0
+  lodash: ^4.17.21
   pinia: ^2.0.0-rc.10
   prettier: 2.5.1
   rollup: ^2.50.0
@@ -24,6 +26,8 @@ specifiers:
 dependencies:
   ant-design-vue: 2.2.8_4f726de02e89ff745196f225ebb1bbcf
   axios: 0.26.1
+  echarts: 5.3.1
+  lodash: 4.17.21
   pinia: 2.0.12_vue@3.2.31
   vue: 3.2.31
   vue-router: 4.0.14_vue@3.2.31
@@ -500,6 +504,13 @@ packages:
 
   /dom-scroll-into-view/2.0.1:
     resolution: {integrity: sha512-bvVTQe1lfaUr1oFzZX80ce9KLDlZ3iU+XGNE/bz9HnGdklTieqsbmsLHe+rT2XWqopvL0PckkYqN7ksmm5pe3w==}
+    dev: false
+
+  /echarts/5.3.1:
+    resolution: {integrity: sha512-nWdlbgX3OVY0hpqncSvp0gDt1FRSKWn7lsWEH+PHmfCuvE0QmSw17pczQvm8AvawnLEkmf1Cts7YwQJZNC0AEQ==}
+    dependencies:
+      tslib: 2.3.0
+      zrender: 5.3.1
     dev: false
 
   /emoji-regex/8.0.0:
@@ -1494,6 +1505,10 @@ packages:
       is-number: 7.0.0
     dev: true
 
+  /tslib/2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
+    dev: false
+
   /type-check/0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
@@ -1746,3 +1761,9 @@ packages:
       y18n: 5.0.8
       yargs-parser: 21.0.1
     dev: true
+
+  /zrender/5.3.1:
+    resolution: {integrity: sha512-7olqIjy0gWfznKr6vgfnGBk7y4UtdMvdwFmK92vVQsQeDPyzkHW1OlrLEKg6GHz1W5ePf0FeN1q2vkl/HFqhXw==}
+    dependencies:
+      tslib: 2.3.0
+    dev: false
