@@ -8,7 +8,7 @@
   </button>
 </template>
 
-<script setup lang="ts">
+<script setup >
 import { useCounterStore } from '../stores/counter';
 
 const store = useCounterStore();
